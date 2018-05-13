@@ -19,5 +19,6 @@
       <!--<Button fx:id="loadBtn" layoutX="340.0" layoutY="479.0" mnemonicParsing="false" onAction="#loadResults" prefHeight="25.0" prefWidth="60.0" text="Load" />-->
       <!--<Text fx:id="savedOrLoadedText" fill="#222020de" layoutX="416.0" layoutY="496.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="207.0" />-->
       <Text fx:id="errorText" fill="#222020de" layoutX="215.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="246.0" />
+      <Button fx:id="loadSoundFilesBtn" layoutX="286.0" layoutY="234.0" mnemonicParsing="false" onMouseClicked="#loadSoundFiles" text="Load sound files" />
    </children>
 </AnchorPane>
