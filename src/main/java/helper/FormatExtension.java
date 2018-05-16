@@ -1,4 +1,4 @@
-package loader;
+package helper;
 
 public enum FormatExtension {
     CSV("csv"),
