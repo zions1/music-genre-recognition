@@ -1,4 +1,4 @@
-package loader;
+package mfcc;
 
 import com.google.common.primitives.Doubles;
 import org.openimaj.audio.features.MFCC;
@@ -9,10 +9,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class AudioLoader implements Loader {
+public class CustomMFCC{
 
-    @Override
-    public double[][] load(List<File> files) {
+    public double[][] read(List<File> files) {
         List<List<Double>> mfccs = new ArrayList<>();
         for(File file: files){
             MFCC mfcc = new MFCC(new XuggleAudio(file));
